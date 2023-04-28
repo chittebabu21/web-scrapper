@@ -26,7 +26,7 @@ async function run() {
         // website to scrap
         await page.goto('https://www.amazon.com/Best-Sellers/zgbs');
 
-        // // get carousel items
+        // get carousel items
         const selector = '.a-carousel';
 
         // wait for selector
